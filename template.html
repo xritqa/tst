@@ -1,0 +1,25 @@
+<html>
+<head>
+<title>
+Template
+</title>
+<script>
+function templateFunc() {
+  var now = new Date();
+  var output = document.getElementById("out");
+  output.innerHTML = "current date/time on your browser = " + now + "</p><p>utc time = " + now.toUTCString() + "</p>";
+}
+</script> 
+</head>
+<body>
+<a href="http://advisical.com">
+<img src="../advisical8/advisical.gif?ref=samplecode/template" border="0" />
+</a>
+<h2>Template</h2>
+<a href="template.html">template.html</a>
+<p style="text-align: center">
+<button onclick="templateFunc()">Click Me</button>
+</p>
+<div id="out"></div>
+</body>
+</html>
